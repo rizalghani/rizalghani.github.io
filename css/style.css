@@ -245,75 +245,45 @@ button {
   font-size: 15.5px;
 }
 
-/* footer */
+
+.projects h3{
+  text-align: center;
+  font-size: 30px;
+  font-weight: 200;
+}
+
+.projects h3{
+  margin: 10px;
+}
+
+.projects .grid-cols-3 .grid-col-item{
+  background-color: var(--primary-color);
+  padding: 15px;
+  border-radius: 15px;
+}
+
+.projects .grid-cols-3 .grid-col-item .featured_info p{
+  text-align: left;
+  color: #fff;
+}
+
+.projects .grid-cols-3 .grid-col-item .featured_info span{
+  color:  #fff;
+}
+
+.projects .grid-cols-3 .grid-col-item .featured_info .icon{
+  fill:  #fff;
+}
+
+
+
 
 footer {
-  position: relative;
-  bottom: 0;
-  left: 0;
-  right: 0;
   width: 100%;
   background-color: var(--primary-color);
-  height: auto;
+  height: 12px;
   margin-top: 8rem;
-  font-family: sans-serif;
-  padding-top: 40px;
-  color: #fff;
 }
-.footer-content{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  text-align: center;
-}
-
-.footer-content h3{
-  font-size: 1.8rem;
-  font-weight: 400;
-  text-transform: capitalize;
-  line-height: 3rem;
-}
-
-.footer-content p{
-  max-width: 500px;
-  margin: 10px auto;
-  line-height: 28px;
-  font-size: 14px;
-}
-
-.socials{
-  list-style: none;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 24px;
-}
-
-.socials li{
-  display: inline;
-  margin-left: 10px;
-  padding: 0px;
-  color: #fff;
-}
-
-.social a{
-  text-decoration: none;
-  color: #fff;
-}
-
-.footer-bottom{
-  text-align: center;
-}
-
-.footer-bottom p{
-  font-size: 12px;
-  text-transform: capitalize;
-}
-
-
-
-
 
 /* ==== MEDIA QURIES FOR RESPONSIVE DESIGN ==== */
 @media screen and (min-width: 768px) {
