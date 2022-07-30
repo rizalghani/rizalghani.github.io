@@ -441,6 +441,27 @@ footer {
   }
 }
 
+footer {
+  width: 100%;
+  color: white;
+  background-color: var(--primary-color);
+  height: auto;
+  padding: 20px;
+  margin-top: 8rem;
+  text-align: center;
+  font-size: 21px;
+}
+
+footer img {
+  width: 32px;
+  margin: 0 10px 20px;
+  transition: .3s;
+}
+
+footer img:hover {
+  transform: scale(1.5);
+}
+
 @media screen and (max-width: 991px) {
   .wrapper {
     padding-top: 3rem;
