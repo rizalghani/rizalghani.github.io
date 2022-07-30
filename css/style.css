@@ -227,6 +227,7 @@ button {
 }
 .featured_info {
   width: 100%;
+  text-align: center;
 }
 .featured_info span {
   width: 100%;
@@ -279,13 +280,22 @@ button {
   padding: 15px;
 }
 
+#members a {
+  color: var(--link-color);
+  margin: 10px;
+}
+
+#members .featured_info {
+  margin: 10px 0px;
+}
+
 #members *,
 *:before,
 *:after {
   box-sizing: inherit;
 }
 
-.members h2 {
+#members h2 {
   text-align: center;
   font-size: 30px;
   font-weight: 200;
@@ -293,7 +303,7 @@ button {
 }
 
 .members h3 {
-  margin: 10px;
+  margin: 20px;
 }
 
 #members .column {
@@ -304,7 +314,7 @@ button {
 }
 
 @media screen and (max-width: 650px) {
-  .column {
+  #members .column {
     width: 100%;
     display: block;
   }
@@ -318,7 +328,7 @@ button {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   padding: 10px;
   text-align: center;
-  height: 375px;
+  max-height: 450px;
 }
 
 #members .title {
